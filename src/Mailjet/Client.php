@@ -332,6 +332,7 @@ class Client
             $this->settings['version'] = $this->version;
         }
 
+        $settings=array();
         $settings['call'] = $call;
         if (isset($settings['call']) && is_bool($settings['call'])) {
             $this->settings['call'] = $settings['call'];
